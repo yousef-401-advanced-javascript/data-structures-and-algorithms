@@ -1,5 +1,29 @@
 # data-structures-and-algorithms
 
+#### Table of Contents
+
+|  ***#Read*** |      link      |
+|----------|:-------------:|
+| Reverse | [Reverse Array](./challenges/arrayReverse/README.md) |
+|  | []() |
+|  | []() |
+|  | []() |
+|  | []() |
+|  | []() |
+|  | []() |
+|  | []() |
+|  | []() |
+|  | []() |
+|  | []() |
+|  | []() |
+|  | []() |
+|  | []() |
+|  | []() |
+
+
+
+
+
 
 ## Reverse an Array
 
@@ -14,15 +38,5 @@ i used the for loop/easiest way/ and after searching i think the big O is O(n):l
 ![whiteboard images](./assets/array-reverse/array-reverse1.jpg)
 ![whiteboard images](./assets/array-reverse/array-reverse2.jpg)
 
-#### Table of Contents
 
 
-- [ ] array-reverse
-- [ ] array-reverse
-- [ ] array-reverse
-- [ ] array-reverse
-- [ ] array-reverse
-- [ ] array-reverse
-- [ ] array-reverse
-- [ ] array-reverse
-- [ ] array-reverse
