@@ -1,8 +1,8 @@
 'use strict';
 function BinarySearch (array, num) {
   let mid;
-  if(array%2){mid = (array.length)/2 + .5;}
-  else { mid = array.length/2;}
+  if(array.length%2){mid = ((array.length)/2)+.5 ;}
+  else { mid = (array.length/2) ;}
 
   for(let i = mid; i<array.length;){
     
@@ -21,4 +21,6 @@ function BinarySearch (array, num) {
   return -1;
     
 }
-console.log(BinarySearch([1,2,3,4,5,6],6));
+// console.log(BinarySearch([1,2,3,4,5,6],6));
+
+module.exports = BinarySearch;
