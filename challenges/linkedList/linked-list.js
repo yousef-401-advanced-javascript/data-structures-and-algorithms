@@ -13,10 +13,10 @@ class LinkedList {
     this.head = null;
   }
   insert(theNewValue) {
-    if (!theNewValue){return console.error('ERROR: you should put an arrgument');}
+    if (!theNewValue){throw console.error('ERROR: you should put an arrgument');}
 
     let node = new Node(theNewValue);
-    
+
     if (!this.head) {
       this.head = node;
       return this;
@@ -26,6 +26,7 @@ class LinkedList {
     node.next = this.head;
     this.head = node;
     currentNode = this.head;
+    console.log(this);
     return this;
   }
 
@@ -50,21 +51,21 @@ class LinkedList {
     return str;
   }
 }
-module.exports = LinkedList;
+module.exports = new LinkedList;
 
-let hi = new LinkedList;
-console.log(hi.includes(1));
+// let hi = new LinkedList();
+// console.log(hi.includes(1));
 
-hi.insert(1222);
-hi.insert(2);
-hi.insert(3);
-hi.insert(4);
-hi.insert(5);
-console.log(hi.includes(1));
-console.log(hi.includes(10));
-console.log(hi.includes(14));
-console.log(hi.includes(4));
-console.log(hi.toString());
+// hi.insert(1222);
+// hi.insert(2);
+// hi.insert(3);
+// hi.insert(4);
+// hi.insert(5);
+// console.log(hi.includes(1));
+// console.log(hi.includes(10));
+// console.log(hi.includes(14));
+// console.log(hi.includes(4));
+// console.log(hi.toString());
 
 
 
