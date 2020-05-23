@@ -1,15 +1,18 @@
-## [PR URL](https://github.com/yousef-401-advanced-javascript/data-structures-and-algorithms/pull/4)
+## [PR URL](https://github.com/yousef-401-advanced-javascript/data-structures-and-algorithms/pull/5)
 
 ## linked list
 from the resource this is a data structure for linear collection of data elements
 ### Challenge
-writing a function to search for a number
+write methods for linked list data structure(insert,includes, toString)
 
 ### Approach & Efficiency
 
-i used the for loop and switch statement /easiest way/ i think the big O is O(n):linear but im not sure
+- for the insert method the BIG O(n) = O(1)for the time and the space 
+- for the includes method the BIG O(n) = O(n)for the time and O(1) for the space
+- for the toString method the BIG O(n) = O(n)for the time and the space 
+
 
 ### Solution
-![whiteboard images](../../assets/linked-list/linked-list1.jpg)
-![whiteboard images](../../assets/linked-list/linked-list2.jpg)
-![whiteboard images](../../assets/linked-list/linked-list3.jpg)
+![whiteboard images](../../assets/linked-list/includes.png)
+![whiteboard images](../../assets/linked-list/insert.PNG)
+![whiteboard images](../../assets/linked-list/toString.pngS)
