@@ -3,7 +3,7 @@
 ## linked list
 from the resource this is a data structure for linear collection of data elements
 ### Challenge
-write methods for linked list data structure(insert,includes, toString, append,insertBefor,insertAfter)
+write methods for linked list data structure(insert,includes, toString, append,insertBefor,insertAfter, kthFromEnd)
 
 ### Approach & Efficiency
 
@@ -12,7 +12,9 @@ write methods for linked list data structure(insert,includes, toString, append,i
 - for the toString method the BIG O(n) = O(n)for the time and the space 
 - for the append method the BIG O(n) = O(n)for the time and for the space is O(1) 
 - for the insertBefor method the BIG O(n) = O(n)for the time and for the space is O(1) 
-- for the insertAfter method the BIG O(n) = O(n)for the time and for the space is O(1) 
+- for the insertAfter method the BIG O(n) = O(n)for the time and for the space is O(1)
+- for the kthFromEnd method the BIG O(n) = O(n)for the time and for the space is O(1) 
+
 
 
 ### Solution
@@ -22,4 +24,6 @@ write methods for linked list data structure(insert,includes, toString, append,i
 ![whiteboard images](../../assets/linked-list/append.png)
 ![whiteboard images](../../assets/linked-list/insertBefore.png)
 ![whiteboard images](../../assets/linked-list/insertAfter.png)
+![whiteboard images](../../assets/linked-list/kthFromEnd.png)
+
 

@@ -46,4 +46,29 @@ describe('insertBefore, insertAfter, append  methods',()=>{
   test('to string ',()=>{
     expect(LinkedList.toString()).toEqual('{2} -> {30} -> {1} -> {100} -> {10} -> {2} -> NULL');
   });
+
+  //////////////////////////kthFromEnd\\\\\\\\\\\\\\\\\\\\\\\
+});
+describe('kthFromEnd methods',()=>{
+  test ('k is greater than the length of the linked list',()=>{
+    let error = `the input 7 should not be negative or equal or more than 6 or the lenght of the linked list is 1`;
+    expect(LinkedList.kthFromEnd(7)).toMatch(error);
+  });
+  test('k and the length of the list are the same',()=>{
+    let error = `the input 6 should not be negative or equal or more than 6 or the lenght of the linked list is 1`;
+    expect(LinkedList.kthFromEnd(6)).toMatch(error);
+  });
+  test('k and the length of the list are the same',()=>{
+    let error = `the input -10 should not be negative or equal or more than 6 or the lenght of the linked list is 1`;
+    expect(LinkedList.kthFromEnd(-10)).toMatch(error);
+  });
+  test('the linked list is of a size 1',()=>{
+    let hi = require('./linked-list.js').hi;
+    hi.insert(3);
+    let error = `the input 1 should not be negative or equal or more than 1 or the lenght of the linked list is 1`;
+    expect(hi.kthFromEnd(1)).toMatch(error);
+  });
+  test('k is not at the end, but somewhere in the middle of the linked list',()=>{
+    expect(LinkedList.kthFromEnd(2)).toEqual(100);
+  });
 });

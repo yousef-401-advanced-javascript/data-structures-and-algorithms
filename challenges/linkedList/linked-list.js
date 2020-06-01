@@ -109,8 +109,30 @@ class LinkedList {
     }
     return (`this value ${afterValue} is not exest in the linked list` );
   }
+  ////////////////kth-from-end\\\\\\\\\\\\\\\\\
+  kthFromEnd(k){
+    let len = 0;
+    let current = this.head;
+    while(current!== null){
+      len++;
+      current = current.next;
+    }
+    if(k>=len||k<0 || len ===1){
+      return (`the input ${k} should not be negative or equal or more than ${len} or the lenght of the linked list is 1`);
+    }
+    current = this.head;
+    for(let i = 0;i<=len-k ;i++){
+      if (i===len-k-1){
+        return current.value;
+      }
+      current = current.next;
+    }
+  }
 }
 module.exports = new LinkedList;
+
+module.exports.hi = new LinkedList;
+
 
 let hi = new LinkedList();
 // console.log(hi.includes(1));
@@ -129,7 +151,7 @@ let hi = new LinkedList();
 // console.log(hi.includes(4));
 
 ////////////////////appending\\\\\\\\\\\\\\
-// hi.append(3);
+hi.append(3);
 // hi.append(4);
 // hi.append(5);
 // hi.append(12);
@@ -142,7 +164,21 @@ let hi = new LinkedList();
 // hi.insertAfter(111,190);
 // hi.insertBefore(14);
 // hi.insertBefore(14);
-// console.log(hi.toString());
+console.log(hi.toString());
+console.log(hi.kthFromEnd(0));
+// console.log(hi.kthFromEnd(1));
+// console.log(hi.kthFromEnd(2));
+// console.log(hi.kthFromEnd(3));
+// console.log(hi.kthFromEnd(4));
+// console.log(hi.kthFromEnd(5));
+// console.log(hi.kthFromEnd(6));
+// console.log(hi.kthFromEnd(7));
+// console.log(hi.kthFromEnd(8));
+// console.log(hi.kthFromEnd(10));
+// console.log(hi.kthFromEnd(9));
+// console.log(hi.kthFromEnd(-10));
+
+
 
 
 
