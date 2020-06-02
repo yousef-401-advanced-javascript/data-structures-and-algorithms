@@ -1,9 +1,9 @@
-## [PR URL](https://github.com/yousef-401-advanced-javascript/data-structures-and-algorithms/pull/6)
+## [PR URL](https://github.com/yousef-401-advanced-javascript/data-structures-and-algorithms/pull/7)
 
 ## linked list
 from the resource this is a data structure for linear collection of data elements
 ### Challenge
-write methods for linked list data structure(insert,includes, toString, append,insertBefor,insertAfter, kthFromEnd)
+write methods for linked list data structure(insert,includes, toString, append,insertBefor,insertAfter, kthFromEnd, mergelist)
 
 ### Approach & Efficiency
 
@@ -14,6 +14,8 @@ write methods for linked list data structure(insert,includes, toString, append,i
 - for the insertBefor method the BIG O(n) = O(n)for the time and for the space is O(1) 
 - for the insertAfter method the BIG O(n) = O(n)for the time and for the space is O(1)
 - for the kthFromEnd method the BIG O(n) = O(n)for the time and for the space is O(1) 
+- for the mergelist method the BIG O(n) = O(n^2)for the time and for the space is O(n) 
+
 
 
 
@@ -25,5 +27,7 @@ write methods for linked list data structure(insert,includes, toString, append,i
 ![whiteboard images](../../assets/linked-list/insertBefore.png)
 ![whiteboard images](../../assets/linked-list/insertAfter.png)
 ![whiteboard images](../../assets/linked-list/kthFromEnd.png)
+![whiteboard images](../../assets/linked-list/mergelist.jpg)
+
 
 

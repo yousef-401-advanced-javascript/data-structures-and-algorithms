@@ -132,6 +132,9 @@ class LinkedList {
 module.exports = new LinkedList;
 
 module.exports.hi = new LinkedList;
+module.exports.ll = LinkedList;
+module.exports.node = Node;
+
 
 
 let hi = new LinkedList();
@@ -151,7 +154,7 @@ let hi = new LinkedList();
 // console.log(hi.includes(4));
 
 ////////////////////appending\\\\\\\\\\\\\\
-hi.append(3);
+// hi.append(3);
 // hi.append(4);
 // hi.append(5);
 // hi.append(12);
@@ -164,8 +167,8 @@ hi.append(3);
 // hi.insertAfter(111,190);
 // hi.insertBefore(14);
 // hi.insertBefore(14);
-console.log(hi.toString());
-console.log(hi.kthFromEnd(0));
+// console.log(hi.toString());
+// console.log(hi.kthFromEnd(0));
 // console.log(hi.kthFromEnd(1));
 // console.log(hi.kthFromEnd(2));
 // console.log(hi.kthFromEnd(3));
