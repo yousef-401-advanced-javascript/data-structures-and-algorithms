@@ -1,4 +1,4 @@
-## [PR URL](https://github.com/yousef-401-advanced-javascript/data-structures-and-algorithms/pull/7)
+## [PR URL](https://github.com/yousef-401-advanced-javascript/data-structures-and-algorithms/pull/8)
 
 ## linked list
 from the resource this is a data structure for linear collection of data elements
