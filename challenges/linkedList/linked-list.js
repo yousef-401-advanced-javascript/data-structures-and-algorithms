@@ -128,6 +128,23 @@ class LinkedList {
       current = current.next;
     }
   }
+  palendrom(){
+    let len = 0;
+    let current = this.head;
+    let val ;
+
+    while(current!== null){
+      val = current.value;
+      if(val === this.kthFromEnd(len)){
+        len++;
+        current = current.next;
+        continue;
+      }
+      return false;
+    }
+    return true;
+   
+  }
 }
 module.exports = new LinkedList;
 
@@ -154,15 +171,17 @@ let hi = new LinkedList();
 // console.log(hi.includes(4));
 
 ////////////////////appending\\\\\\\\\\\\\\
+// hi.append(1);
+// hi.append(2);
 // hi.append(3);
 // hi.append(4);
-// hi.append(5);
-// hi.append(12);
-// hi.append(5);
-// hi.append(11);
+// hi.append(3);
+// hi.append(2);
+// hi.append(1);
 // hi.append(5);
 // hi.append(14);
 // console.log(hi.toString());
+console.log(hi.palendrom());
 // hi.insertBefore(5,99);
 // hi.insertAfter(111,190);
 // hi.insertBefore(14);
