@@ -28,13 +28,14 @@ class Stack {
     
   }
   peek(){
-    return this.top;
+    return this.top||'Exception';
   }
   isEmpty(){
     return !this.top;
   }
 }
 
+/////////--------------QUEUE--------------------\\\\\\\\\\\\\\\\\\\\\
 class Queue{
   constructor(){
     this.storage = null;
@@ -58,7 +59,7 @@ class Queue{
   }
   dequeue(){
     if(!this.front){
-      return 'there is no data';
+      return 'Exception';
     }
     let temp = this.front;
     this.front = this.front.next;
@@ -67,10 +68,10 @@ class Queue{
       this.rare = null;
     }
     this.storage = this.front;//some thing weerd
-    return this;
+    return temp.value;
   }
   peek(){
-    return this.front&&this.front.value;
+    return this.front&&this.front.value||'Exception';
   }
   isEmpty(){
     return !this.front;
@@ -79,11 +80,13 @@ class Queue{
 
 }
 
-module.exports = Stack;
-module.exports = Queue;
+module.exports.stack = Stack;
+module.exports.queue = Queue;
 
-let hi = new Stack();
-let queue = new Queue();
+// let hi = new Stack();
+// let queue = new Queue();
+
+
 // console.log(queue.enqueue(5));
 // console.log(queue.enqueue(4));
 // console.log(queue.enqueue(3));
@@ -104,16 +107,16 @@ let queue = new Queue();
 // console.log(hi.pop());
 // console.log(hi.isEmpty());
 ////////-------------------------------\\\\\\\\\\\\\
-console.log(queue.isEmpty());
-console.log(queue.enqueue(5));
-console.log(queue.peek());
-console.log(queue.enqueue(11));
-console.log(queue.peek());
-console.log(queue.isEmpty());
-console.log(queue.dequeue());
-console.log(queue.peek());
-console.log(queue.isEmpty());
-console.log(queue.dequeue());
-console.log(queue.peek());
-console.log(queue.isEmpty());
+// console.log(queue.isEmpty());
+// console.log(queue.enqueue(5));
+// console.log(queue.peek());
+// console.log(queue.enqueue(11));
+// console.log(queue.peek());
+// console.log(queue.isEmpty());
+// console.log(queue.dequeue());
+// console.log(queue.peek());
+// console.log(queue.isEmpty());
+// console.log(queue.dequeue());
+// console.log(queue.peek());
+// console.log(queue.isEmpty());
 
