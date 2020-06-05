@@ -155,6 +155,8 @@ module.exports.node = Node;
 
 
 let hi = new LinkedList();
+
+
 // console.log(hi.includes(1));
 ////////////////////////insert\\\\\\\\\\\\\\\\\
 // hi.insert(1222);
@@ -181,12 +183,13 @@ let hi = new LinkedList();
 // hi.append(5);
 // hi.append(14);
 // console.log(hi.toString());
-console.log(hi.palendrom());
+/////////////////////////////////////////add before and after\\\\\\\\\\\\\\\\\\\\\
 // hi.insertBefore(5,99);
 // hi.insertAfter(111,190);
 // hi.insertBefore(14);
 // hi.insertBefore(14);
 // console.log(hi.toString());
+//////////////////////////////////kthfromend\\\\\\\\\\\\\\\\\\\
 // console.log(hi.kthFromEnd(0));
 // console.log(hi.kthFromEnd(1));
 // console.log(hi.kthFromEnd(2));
@@ -202,9 +205,8 @@ console.log(hi.palendrom());
 
 
 
-
-
-
+/////////////////////////palendrome\\\\\\\\\\\\\\\\\\\\\\\
+// console.log(hi.palendrom());
 
 
 
