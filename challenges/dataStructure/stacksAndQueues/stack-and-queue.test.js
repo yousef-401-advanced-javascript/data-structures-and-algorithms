@@ -49,6 +49,7 @@ describe('Stack methods', ()=>{
   });
 
 });
+////////////--------------Queue Test----------\\\\\\\\\\\\\\\
 describe('Queue methods', ()=>{
 
   it('enqueue onto a queue', ()=>{
@@ -93,5 +94,5 @@ describe('Queue methods', ()=>{
     expect(queue.dequeue()).toEqual('Exception');
     expect(queue.peek()).toEqual('Exception');
   });
-  
+
 });

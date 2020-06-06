@@ -54,6 +54,7 @@ class Queue{
     // this.storage = node;
     this.rare.next = node;
     this.rare = node;
+
     return this;
     
   }
@@ -84,7 +85,7 @@ module.exports.stack = Stack;
 module.exports.queue = Queue;
 
 // let hi = new Stack();
-// let queue = new Queue();
+let queue = new Queue();
 
 
 // console.log(queue.enqueue(5));
@@ -119,4 +120,6 @@ module.exports.queue = Queue;
 // console.log(queue.dequeue());
 // console.log(queue.peek());
 // console.log(queue.isEmpty());
+
+
 
