@@ -85,7 +85,7 @@ module.exports.stack = Stack;
 module.exports.queue = Queue;
 
 // let hi = new Stack();
-let queue = new Queue();
+// let queue = new Queue();
 
 
 // console.log(queue.enqueue(5));
