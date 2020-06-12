@@ -68,7 +68,7 @@ class Queue{
     if(!this.front){
       this.rare = null;
     }
-    this.storage = this.front;//some thing weerd
+    this.storage = this.front;//some thing weird
     return temp.value;
   }
   peek(){
