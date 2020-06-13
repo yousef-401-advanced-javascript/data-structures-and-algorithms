@@ -57,10 +57,11 @@ queue.enqueue(3);
 queue.enqueue(7);
 
 console.log(queue.stack1.stack);
-queue.dequeue();
-queue.dequeue();
-queue.dequeue();
-queue.dequeue();
+
+queue.dequeue();//will remove 5
+queue.dequeue();//will remove 2
+queue.dequeue();//will remove 1
+queue.dequeue();//will remove 4
 
 console.log(queue.stack1.stack);
 

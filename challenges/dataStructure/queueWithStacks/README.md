@@ -9,9 +9,10 @@ creating a methods for Stack And Queue Data structure<br />
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
-Queue methods ( enqueue, dequeue)) tha BIG O is O(1) for all.and that because there is no loops<br />
+Queue methods ( enqueue, dequeue)) tha BIG O is O(n) for time and that because there is a loop<br />
+and O(1) for the space
 
 ## Solution
-![whiteboard images](../../../assets/stackandqueue/S&Q5.jpg)
-![whiteboard images](../../../assets/stackandqueue/S&Q6.jpg)
+![whiteboard images](../../../assets/stack-with-queue/QWS1.jpg)
+![whiteboard images](../../../assets/stack-with-queue/QWS2.jpg)
 
