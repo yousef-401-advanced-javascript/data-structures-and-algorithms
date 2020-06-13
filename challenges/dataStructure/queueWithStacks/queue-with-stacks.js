@@ -1,21 +1,53 @@
 'use strict';
 
- 
-class PseudoQueue {
-  constructor(){
-    this.storage = [];
+
+class Stack {
+  constructor() {
+    this.stack = [];
+    this.top = null;
   }
-    
-  enqueue(value){
-    this.storage.push(value);
+  peek() {
+    return this.top;
   }
-    
-  dequeue(){
-    this.storage.shift();
-    
+  push(item) {
+    this.stack.unshift(item);
+    this.top = item;
+  }
+  pop() {
+    const item = this.stack.shift();
+    this.top = this.stack[0] ? this.stack[0] : null;
+    return item;
   }
 }
-module.exports.newQueue = PseudoQueue;
+
+class PseudoQueue{
+  constructor(){
+    this.stack1 = new Stack();
+    this.stack2 = new Stack();
+  }
+  enqueue(newValue){
+    while (this.stack1.stack.length!==0){
+     
+      this.stack2.stack.push(this.stack1.stack.pop());
+  
+    }
+
+    this.stack1.stack.push(newValue);
+    
+    while(this.stack2.stack.length!==0){
+      this.stack1.stack.push(this.stack2.stack.pop());
+     
+    }
+  }
+  dequeue(){
+    if(this.stack1.stack.length ===0){
+      return 'empty';
+    }
+    return this.stack1.stack.pop();
+  }
+}  
+  
+
 let queue = new PseudoQueue();
 queue.enqueue(5);
 queue.enqueue(2);
@@ -24,11 +56,11 @@ queue.enqueue(4);
 queue.enqueue(3);
 queue.enqueue(7);
 
-console.log(queue);
+console.log(queue.stack1.stack);
 queue.dequeue();
 queue.dequeue();
 queue.dequeue();
 queue.dequeue();
 
-console.log(queue);
+console.log(queue.stack1.stack);
 
