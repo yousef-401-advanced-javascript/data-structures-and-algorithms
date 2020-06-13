@@ -1,7 +1,7 @@
 'use strict';
 const BinarySearch = require('./array-binary-search.js');
-let arr = [1,2,3,4,5];
-let arr2 = [1,2,3,4];
+let arr = [1, 2, 3, 4, 5];
+let arr2 = [1, 2, 3, 4];
 test('the number is larger than the mid number in the array', () => {
   expect(BinarySearch(arr, 4)).toEqual(3);
 });
