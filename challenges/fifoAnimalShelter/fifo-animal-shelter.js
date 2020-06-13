@@ -73,6 +73,7 @@ animal.enqueueAnimal('dog');
 console.log(animal);
 
 animal.dequeueAnimal('cat');
+animal.dequeueAnimal('dog');
 console.log(animal);
 
 
