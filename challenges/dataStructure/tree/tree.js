@@ -101,25 +101,25 @@ module.exports ={
   BT:BinaryTree,
 };
 
-let tree = new BinarySearchTree();
-tree.add(10);
-tree.add(12);
-tree.add(4);
-tree.add(15);
-tree.add(6);
-tree.add(3);
-tree.add(1);
-tree.add(19);
-tree.add(7);
-tree.add(11);
+// let tree = new BinarySearchTree();
+// tree.add(10);
+// tree.add(12);
+// tree.add(4);
+// tree.add(15);
+// tree.add(6);
+// tree.add(3);
+// tree.add(1);
+// tree.add(19);
+// tree.add(7);
+// tree.add(11);
 
-console.log(JSON.stringify(tree));
-console.log(tree.root.right);
-console.log(tree.contains(11));
-console.log(tree.contains(101));
-console.log(tree.contains(1));
-console.log(tree.contains(12));
-console.log(tree.contains(200));
+// console.log(JSON.stringify(tree));
+// console.log(tree.root.right);
+// console.log(tree.contains(11));
+// console.log(tree.contains(101));
+// console.log(tree.contains(1));
+// console.log(tree.contains(12));
+// console.log(tree.contains(200));
 
 
 
