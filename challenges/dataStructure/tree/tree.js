@@ -109,6 +109,20 @@ class BinaryTree {
 
     return finalResults;
   }
+  findMaximumValue(){
+    let max = this.root.value;
+    const _traversal = (node)=>{
+      // console.log(node.value);
+      if (node.value >max){
+        max = node.value;
+      }
+      if(node.left)_traversal(node.left);
+      if(node.right)_traversal(node.right);
+
+    };
+    _traversal(this.root);
+    return max;
+  }
 
 }
 ///////////////////-------------Binary search tree---------------\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -187,7 +201,8 @@ six.right = seven;
 seven.left = eight;
 seven.right = nine;
 let tree = new BinaryTree(one);
-console.log(tree.breadthFirst());
+// console.log(tree.breadthFirst());
+console.log(tree.findMaximumValue());
 // let tree = new BinarySearchTree();
 // tree.add(10);
 // tree.add(12);

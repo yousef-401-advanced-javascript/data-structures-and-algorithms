@@ -10,10 +10,13 @@
 
 - create method to the binary tree class called breadthFirst to return an array with the tree nodes values .
 
+- create method to find the  max value in the tree (findMaximumValue)
+
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-- the BIG O for the method (add, contains) is O(logn)in time and O(1)for the space
+- the BIG O for the method (add, contains) is O(log n)in time and O(1)for the space
 - the BIG O for the method (Breadth first) is O(n)in time and O(1)for the space
+- the BIG O for the method (findMaximumValue) is O(n) and O(1) for the space
 
 ## Solution
 ![whiteboard images](../../../assets/binarySearchTree/BST1.jpg)
