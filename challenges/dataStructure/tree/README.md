@@ -25,5 +25,7 @@
 ![whiteboard images](../../../assets/binarySearchTree/BST4.jpg)
 ![whiteboard images](../../../assets/binarySearchTree/BF1.jpg)
 ![whiteboard images](../../../assets/binarySearchTree/BF2.jpg)
+![whiteboard images](../../../assets/binarySearchTree/FMV1.jpg)
+![whiteboard images](../../../assets/binarySearchTree/FMV2.jpg)
 
 
