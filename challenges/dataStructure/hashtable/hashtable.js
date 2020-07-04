@@ -74,6 +74,9 @@ class HashTable {
 
 
 }
+module.exports = HashTable;
+
+///////
 
 const hashmap = new HashTable(1024); // ==> [4000]
 hashmap.add('name', 'joh');
