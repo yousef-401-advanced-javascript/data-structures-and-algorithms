@@ -78,28 +78,28 @@ module.exports = HashTable;
 
 ///////
 
-const hashmap = new HashTable(1024); // ==> [4000]
-hashmap.add('name', 'joh');
-hashmap.add('yousef', 'thing');
-hashmap.add('youfes', 'alshen');
-hashmap.add('jordan', 'ml');
-hashmap.add('this', 'nothing');
+// const hashmap = new HashTable(1024); // ==> [4000]
+// hashmap.add('name', 'joh');
+// hashmap.add('yousef', 'thing');
+// hashmap.add('youfes', 'alshen');
+// hashmap.add('jordan', 'ml');
+// hashmap.add('this', 'nothing');
 // console.log(hashmap.storage);
 // console.log(
 //   hashmap.storage[173].head.value,
 //   hashmap.storage[173].head.next
 // );
-console.log(hashmap.get('name'));
-console.log(hashmap.get('yousef'));
-console.log(hashmap.get('youfes'));
-console.log(hashmap.get('fjdjfh'));
+// console.log(hashmap.get('name'));
+// console.log(hashmap.get('yousef'));
+// console.log(hashmap.get('youfes'));
+// console.log(hashmap.get('fjdjfh'));
 
-console.log(hashmap.contains('name'));
-console.log(hashmap.contains('yousef'));
-console.log(hashmap.contains('youfes'));
-console.log(hashmap.contains('youefs'));
+// console.log(hashmap.contains('name'));
+// console.log(hashmap.contains('yousef'));
+// console.log(hashmap.contains('youfes'));
+// console.log(hashmap.contains('youefs'));
 
-console.log(hashmap.contains('fjdjfh'));
+// console.log(hashmap.contains('fjdjfh'));
 
 
 
