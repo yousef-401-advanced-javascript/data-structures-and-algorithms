@@ -202,7 +202,7 @@ seven.left = eight;
 seven.right = nine;
 let tree = new BinaryTree(one);
 // console.log(tree.breadthFirst());
-console.log(tree.findMaximumValue());
+tree.findMaximumValue();
 // let tree = new BinarySearchTree();
 // tree.add(10);
 // tree.add(12);
