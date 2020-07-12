@@ -46,6 +46,7 @@ class Graph {
     return this.counter;
   }
 }
+module.exports = Graph;
 
 const graph = new Graph();
 const ten = new Vertex(10);
@@ -76,5 +77,5 @@ graph.addEdge(eight, three);
 graph.addEdge(seven, tne);
 
 // graph.getNodes();
-graph.size();
+// graph.size();
 // console.log('NEIGHBORS', graph.adjacencyList);
