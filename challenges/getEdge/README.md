@@ -1,11 +1,11 @@
 ## get-edge.js
 
 ### Challenge
-Extend graph object with a breadth-first traversal method that accepts a starting node
+function return boolean with price of the edges that connected each others
 
 ### Approach & Efficiency
 
-I used the nested loop so the BIG O is O(n^2)
+I used the one loop so the BIG O is O(n)
 
 ### Solution
 ![whiteboard images](../../assets/getEdge/GE1.jpg)
